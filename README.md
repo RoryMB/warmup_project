@@ -8,7 +8,7 @@ For this task I broke it into 3 parts: moving forward, turning, and timing. For 
 
 In the code, I put the functionality into two functions, moving forward and turning. These functions included timing logic. However, at the end, the robot continues forward. So, I added a stop function as well, which sends 0 velocity commands continuously.
 
-![gif](https://github.com/RoryMB/warmup_project/square.webm "Test")
+![gif](https://github.com/RoryMB/warmup_project/blob/main/square.webm "Test")
 
 ## Challenges
 
