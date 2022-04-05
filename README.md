@@ -10,6 +10,7 @@ In the code, I put the functionality into two functions, moving forward and turn
 
 https://user-images.githubusercontent.com/34782324/161799191-15a1d3e2-6fb7-463a-944a-7e60d2d4c09a.mov
 
+
 ## Challenges
 
 Timing correctly was a bit of a challenge since the simulator does not run in real time. I solved this somewhat by letting the simulator run for a minute or two to "warm up" and reduce the changes in delays throughout the program runtime.
