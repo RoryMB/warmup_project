@@ -8,7 +8,7 @@ For this task I broke it into 3 parts: moving forward, turning, and timing. For 
 
 In the code, I put the functionality into two functions, moving forward and turning. These functions included timing logic. However, at the end, the robot continues forward. So, I added a stop function as well, which sends 0 velocity commands continuously.
 
-https://user-images.githubusercontent.com/34782324/161798619-4c91e39b-2362-41e4-b74e-ffd6f2b503ad.mov
+https://user-images.githubusercontent.com/34782324/161799191-15a1d3e2-6fb7-463a-944a-7e60d2d4c09a.mov
 
 ## Challenges
 
