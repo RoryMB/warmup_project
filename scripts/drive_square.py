@@ -13,7 +13,7 @@ class SendVelocities(object):
         self.forward_speed = 0.2
         self.turn_speed = 0.5
         self.forward_time = 6
-        self.turn_time = 5
+        self.turn_time = 3.5
 
     def run(self):
         time.sleep(1)
