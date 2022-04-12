@@ -16,13 +16,17 @@ class SendVelocities(object):
         self.turn_time = 3.5
 
     def run(self):
+        # Give publisher time to set up
         time.sleep(1)
+        # Loop each leg of the square
         for _ in range(4):
             self.go_forward()
             self.turn()
+        # Once the square is over, stop all motion
         self.stop()
 
     def go_forward(self):
+        # Move forward for 6 seconds
         msg = Twist()
         msg.linear.x = self.forward_speed
         msg.angular.z = 0.0
@@ -34,6 +38,7 @@ class SendVelocities(object):
             r.sleep()
 
     def turn(self):
+        # Turn right for 3.5 seconds
         msg = Twist()
         msg.linear.x = 0.0
         msg.angular.z = self.turn_speed
@@ -45,6 +50,8 @@ class SendVelocities(object):
             r.sleep()
 
     def stop(self):
+        # Stop all motion
+        # Useful for end of script
         msg = Twist()
         msg.linear.x = 0.0
         msg.angular.z = 0.0
